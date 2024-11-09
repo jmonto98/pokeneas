@@ -6,6 +6,6 @@ const pokeneasController = require('../controllers/pokeneasController');
 router.get('/', pokeneasController.getPokeneaHTML);
 
 // Ruta que devuelve JSON
-router.get('/api/pokenea', pokeneasController.getPokeneaJSON);
+router.get('/json', pokeneasController.getPokeneaJSON);
 
 module.exports = router;
